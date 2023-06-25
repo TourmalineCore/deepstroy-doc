@@ -33,14 +33,11 @@ git clone https://github.com/TourmalineCore/deepstroy-ui.git
 docker compose -f deepstroy-api/docker-compose.yml up --build run-api-locally
 ```
 ```bash
-docker compose -f deepstroy-model-service/docker-compose.yml up --build run-api-locally
+docker compose -f deepstroy-model-service/docker-compose.yml up --build run-model-service
 ```
 Для запуска ui выполните следующие команды
 ```bash
 cd deepstroy-ui
-```
-```bash
-npm ci
 ```
 ```bash
 npm run start
